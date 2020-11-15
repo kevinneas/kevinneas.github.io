@@ -11,7 +11,7 @@ header:
   #  - label: "Download"
   #    url: "https://github.com/mmistakes/minimal-mistakes/"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "I perform *In Situ* investigations of autoignition fuels."
+excerpt: "*In situ* investigations of autoignition and soot formation for alternative fuels."
 # intro adds a centered description below the image
 # intro: 
   # - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
