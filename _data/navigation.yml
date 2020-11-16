@@ -7,7 +7,7 @@ main:
     url: /research/
   - title: "Teaching"
     url: /teaching/
-  - title: "Defense"
-    url: /defense/
-  - title: "About"
-    url: /about/
+  # - title: "About"
+  #   url: /about/
+  # - title: "Archive"
+  #   url: /archive/

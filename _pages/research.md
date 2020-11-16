@@ -1,7 +1,9 @@
 ---
 title: "Research"
-#layout: posts
+layout: collection
+collection: research
 permalink: /research/
 author_profile: true
+sort_by: date
+sort_order: reverse
 ---
-Research is coming soon!

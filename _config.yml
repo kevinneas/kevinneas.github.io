@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://annathomasphd.com"
 # twitter_username: username
 # github_username: username
-minimal_mistakes_skin: default # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: contrast #default # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 
 # Build settings
@@ -97,15 +97,12 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
-      related: true
       classes: wide
   # _pages
   - scope:
@@ -115,6 +112,11 @@ defaults:
       layout: single
       author_profile: true
       classes: wide
+      
+collections:
+  research:
+    output: true
+    sort_by: date
 
 #category_archive:
 #  type: liquid
